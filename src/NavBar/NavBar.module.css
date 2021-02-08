@@ -1,14 +1,15 @@
-.NavBar_container{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .NavBar{
-    float:left;
+    
     overflow: auto;
     background-color: rgb(151, 202, 226);
     border-radius: 10px;
+}
+.NavBar_container{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .NavBar_header{
@@ -17,6 +18,7 @@
 }
 
 .NavBar_home{
+     
     align-items: center;
 }
 
@@ -25,10 +27,19 @@
     padding-right: 38px;
     padding-bottom: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
+    font-weight: normal;
     
 }
 
 .margin_tags{
-    margin: 15px;
+    margin: 15px 0 15px 15px;
+    
+}
+
+
+.link{
+    text-decoration: none;
+}
+.active_link{
+   color: white;
 }
